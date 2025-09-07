@@ -1,6 +1,1 @@
-FROM python:3.11-slim
-WORKDIR /app
-COPY eth_bybit_notifier.py .
-RUN pip install --no-cache-dir ccxt pandas numpy requests
-ENV TG_TOKEN=8278293582:AAFs_uRk8khp3k-Q7_1qo5eTfFc_eL9PUQQ TG_CHAT_ID=t.me/Globaldi_id_bot
-CMD ["python","/app/eth_bybit_notifier.py"]
+
